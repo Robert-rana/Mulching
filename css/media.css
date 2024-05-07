@@ -1,0 +1,330 @@
+@media(max-width:992px){
+    .banner-box{
+        padding-top: 15%;
+    }
+    .about-container{
+        width: 90%;
+    }
+    .why-container{
+        width: 90%;
+    }
+    .service-container{
+        width: 90%;
+    }
+    .client-container{
+        width: 90%;
+    }
+    .feature-container{
+        width: 90%;
+    }
+    .veg-container {
+        width: 90%;
+    }
+    .orgainc-container {
+        width: 90%;
+    }
+
+    /* --about page -- */
+
+    .agri-container{
+        width: 90%;
+    }
+
+    /* --contact page--  */
+
+    .contact-container{
+        width: 90%;
+    }
+
+    /* -- gallery page -- */
+
+    .gallery-container{
+        width: 90%;
+    }
+}
+
+
+
+
+
+@media(max-width:850px) {
+    header-container {
+        width: 100%;
+    }
+
+    header label {
+        display: block;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        height: 100vh;
+        background: #000;
+        left: -100%;
+        transition: all 1s;
+        z-index: 9;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        /* line-height: 20px; */
+        margin: 30px;
+    }
+
+    #toggle:checked~nav ul {
+        left: 0;
+    }
+
+    .sub-menu {
+        position: absolute;
+        width: 150px;
+        top: 30%;
+        margin-left: 20%;
+        background-color: #999;
+        display: none;
+        height: 120px;
+        border-radius: 5px;
+    }
+    .sub-menu li a{
+        line-height: 10px;
+    }
+
+    
+
+    
+}
+
+
+@media(max-width:768px){
+    .about-container{
+        flex-direction: column;
+    }
+    .about-box{
+        width: 100%;
+    }
+    .about-text h3{
+        margin-top: 20px;
+    }
+    .why-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #stat{
+        height: 250px;
+    }
+    .stat-box h5{
+        font-size: 30px;
+    }
+    .service-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .client-box{
+        margin: 10px;
+    }
+    .client-text p{
+        padding: 10px;
+    }
+
+    /* --about page -- */
+
+    #banner1{
+        height: 200px;
+    }
+}
+
+
+@media(max-width:480px){
+    #banner{
+        height: 350px;
+    }
+    .banner-box h4 {
+        font-size: 32px;
+    }
+    .banner-box h5{
+        font-size: 30px;
+    }
+    #about {
+        padding-top: 45px;
+        padding-bottom: 15px;
+    }
+    .about-img img{
+        height: 300px;
+    }
+    .about-text h3{
+        font-size: 34px;
+    }
+
+    #why h3{
+        font-size: 34px;
+    }
+
+    .why-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #stat {
+        height: 380px;
+    }
+    .stat-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+    .stat-box{
+        margin-top: 20%;
+    }
+
+    #service h3 {
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .service-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #client{
+        height: 650px;
+    }
+    .client-container{
+        flex-direction: column;
+    }
+    .client-box{
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    #feature h3{
+        font-size: 34px;
+    }
+    .feature-container{
+        flex-direction: column;
+    }
+    .feature-box{
+        width: 100%;
+        padding: 0;
+    }
+    .feature-box1{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .btn-2 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .veg-container{
+        flex-direction: column;
+    }
+    .veg-box{
+        width: 100%;
+    }
+    .veg-text{
+        width: 100%;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .orgainc-container{
+        flex-direction: column;
+    }
+    .organic-text{
+        width: 100%;
+        padding: 0;
+    }
+    .organic-box{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    /* --about page -- */
+
+    .agri-container{
+        flex-direction: column;
+    }
+    .agri-text h3{
+        font-size: 34px;
+    }
+    .agri-text{
+        width: 100%;
+    } 
+    .agri-img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .btn-1 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    /* --contact page-- */
+
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-box{
+        width: 100%;
+    }
+
+    .map iframe{
+        width: 100%;
+        height: 300px;
+    }
+
+
+    /* ---gallery page --- */
+
+    .gallery-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #gallery h3{
+        font-size: 34px;
+        font-weight: 600;
+    }
+
+} 
+
+
+@media(max-width:360px){
+    #banner{
+        height: 350px;
+    }
+    .about-img img {
+        height: 230px;
+    }
+    .about-text h3 {
+        font-size: 32px;
+    }
+    #why h3{
+        margin-bottom: 20px;
+    }
+    .card img{
+        height: 230px;
+    }
+    .feature-box1 img{
+        height: 230px;
+    }
+    .veg-box img{
+        height: 230px;
+    }
+    .organic-box img{
+        height: 230px;
+    }
+    #client {
+        height: 720px;
+    }
+    .footer-social a i {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+    .footer-box2 p{
+        line-height: 26px;
+    }
+
+    /* --about page-- */
+
+    .agri-text h3 {
+        font-size: 30px;
+    }
+}    
